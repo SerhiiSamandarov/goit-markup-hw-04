@@ -621,10 +621,11 @@ img {
   margin-bottom: 30px;
 }
 
-.galary-link:hover, .galary-link:focus {
+.galary-link:hover,
+.galary-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .galary-discription {
@@ -633,6 +634,7 @@ img {
 }
 
 .galary-title {
+  color: var(--primary-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
